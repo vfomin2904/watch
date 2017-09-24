@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+#slide{
+	margin:45px auto 0 auto;
+	overflow:hidden;
+	width:95%;
+	position:relative;
+}
+#slide_inner{
+	overflow:hidden;
+	position:relative;
+	width:400%;
+	left:-100%;
+}
+#slide_inner img{
+	position:relative;
+	float:left;
+	width:25%;
+}
+.arrow{
+	position:absolute;
+	z-index:20;
+	height:14%;
+	top:43%;
+	cursor:pointer;
+	display:none;
+}
+#spec_offer{
+	margin-top:25px;
+	text-align:center;
+	font-size:28px;
+	color:#2380a2;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+#spec_box{
+	width:100%;
+	min-height:280px;
+	overflow:hidden;
+}
+.spec_inner{
+	margin:  40px 0 40px 4%;
+	padding:0;
+	width:20%;
+	height:330px;
+	border:1px silver solid;
+	text-align:center;
+	position:relative;
+	float:left;
+}
+.spec_inner:hover{
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+.img_box{
+	width:90%;
+	height:164px;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+}
+.proc{
+	position:absolute;
+	top:0;
+	right:0;
+	clear:both;
+	width:53px;
+	z-index:10;
+}
+.specwatch{
+	width:100%;
+	position:absolute;
+	margin: auto 0;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:0;
+}
+.prodname{
+	line-height:35px;
+	color:#4682B4;
+	font-family: 'PT Sans Narrow', sans-serif, cursive;
+	font-weight:bold;
+}
+.oldprice{
+	text-decoration:line-through;
+	color:red;
+	line-height:30px;
+}
+.newprice{
+	font-size:19px;
+	
+}
+.buyhref{
+	text-decoration:none;
+}
+.buybutton{
+	width:150px;
+	height:40px;
+	line-height:40px;
+	color:white;
+	font-size:20px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	background:#F4A460;
+	margin:20px auto 10px auto;
+	-moz-user-select: none;
+	-o-user-select:none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	 user-select: none;
+	 cursor:pointer;
+	 border-radius:4px;
+}
+.buybutton:hover{
+	background:orange;
+}
+.addbutton{
+	width:150px;
+	height:40px;
+	line-height:40px;
+	color:white;
+	font-size:20px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	background:#F4A460;
+	margin:20px auto 10px auto;
+	-moz-user-select: none;
+	-o-user-select:none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	 user-select: none;
+	 cursor:pointer;
+	 border-radius:4px;
+}
+#info{
+	text-align:center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:17px;
+	color:#474747;
+	margin:20px auto 40px auto;
+	width:80%;
+	clear:both;
+}
+
+#advantages{
+	text-align:center;
+	font-size:28px;
+	line-height:28px;
+	color:#2380a2;
+	font-family: 'PT Sans Narrow', sans-serif;
+	clear:both;
+	height:28px;
+	border:1px silver solid;
+	border-bottom:0px;
+	background:#FFF0F5;
+	width:60%;
+	margin:0 auto -1px auto;
+	border-top-left-radius: 800em 100em;
+	border-top-right-radius: 600em 100em;
+	position:relative;
+	display:none;
+}
+#adv_box{
+	width:80%;
+	padding:0 10% 0 10%;
+	overflow:hidden;
+	margin:0 auto;
+	border:1px silver solid;
+	background:#309bb6/*#00add8*/;
+}
+.adv_block{
+	width:14%;
+	margin: 5px 0 5px 5%;
+	padding:0;
+	float:left;
+	text-align:center;
+}
+.adv_block img{
+	width:95%;
+}
+.adv_text{
+	text-align:center;
+	color:/*#2380a2*/white;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size:14px;
+}

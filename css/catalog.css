@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+#product_box{
+	width:100%;
+	margin:20px 0 20px 0;
+	overflow:hidden;
+}
+.prod_window{
+	width:860px;
+	margin:0 auto 0 auto;
+	border-top:1px #D3D3D3 solid;
+	overflow:hidden;
+	position:relative;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+.prod_window img{
+	width:215px;
+	float:left;
+	position: absolute;
+    margin: auto 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+.info_box{
+	margin-left:25%;
+	height:100%;
+}
+.prodname{
+	text-align:center;
+	width:100%;
+	font-family: 'PT Sans Narrow', sans-serif, cursive;
+	font-weight:bold;
+}
+.prodname a{
+	line-height:35px;
+	color:#4682B4;
+}
+.prodname a:hover{
+	color:#3370a2;
+}
+.describe{
+	text-align:center;
+	color:#474747;
+	width:80%;
+	margin:0 auto 70px auto;
+	height:55px;
+}
+.newprice{
+	font-size:24px;
+	color:#4682B4;	
+	float:left;
+	margin-left:20px;
+	margin-top:10px;
+}
+.price{
+	font-size:32px;
+	color:#4682B4;	
+	float:left;
+	margin:-15px 0 20px 150px;
+}
+.oldprice{
+	text-decoration:line-through;
+	color:red;
+	line-height:30px;
+	float:left;
+	font-size:20px;
+	margin:10px 0 20px 120px;
+}
+.discount{
+	margin-top:-20px;
+	margin-left:170px;
+	color:#4682B4;
+}
+.buyhref{
+	text-decoration:none;
+}
+.buybutton{
+	text-align:center;
+	width:150px;
+	height:40px;
+	line-height:40px;
+	color:white;
+	font-size:20px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	background:/*#F4A460*/#6495ED;
+	margin:-15px 0 10px 350px;
+	-moz-user-select: none;
+	-o-user-select:none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	 user-select: none;
+	 cursor:pointer;
+	 border-radius:4px;
+}
+.buybutton:hover{
+	background:#309bb6;
+}
+.addbutton{
+	text-align:center;
+	width:150px;
+	height:40px;
+	line-height:40px;
+	color:white;
+	font-size:20px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	background:#309bb6;
+	margin:-15px 0 10px 350px;
+	-moz-user-select: none;
+	-o-user-select:none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	 user-select: none;
+	 cursor:pointer;
+	 border-radius:4px;
+}
+#count_page{
+	width:300px;
+	margin: 0 auto;
+	height:60px;
+	padding:0;
+	clear:both;
+}
+#count_page ul{
+	list-style-type:none;
+	padding:0;
+	height:100%;
+	text-align:center;
+}
+#count_page li{
+	display:inline-block;
+	height:100%;
+	margin-right:5px;
+	line-height:60px;
+}
+#count_page a{
+	font-size:17px;
+	color:#4682B4;
+}

@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+#content{
+	position:relative;
+	min-height:600px;
+	padding-bottom:50px;
+}
+#title{
+	font-size:30px;
+	color:#309bb6;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:40px;
+}
+#checkout_form{
+	margin:0 auto;
+	width:500px;
+	color:#474747;
+}
+#checkout_form select{
+	width:300px;
+	font-size:17px;
+	margin-bottom:20px;
+	margin-right:50px;
+}
+#checkout_form input{
+	margin-bottom:15px;
+}
+#checkout_form label{
+	margin-right:20px;
+}
+#checkout_form textarea{
+	margin-bottom:20px;
+	margin-top:5px;
+	height:50px;
+	width:100%;
+	max-width:100%;
+	max-height:80px;
+}
+#checkout_form input[type="submit"]{
+	float:right;
+	width:200px;
+	height:40px;
+	line-height:40px;
+	border-radius:5px;
+	color:white;
+	font-size:18px;
+	background:#309bb6;
+	text-align:center;
+	margin-top:0px;
+	border:0;
+	cursor:pointer;
+}
+#address{
+	width:100%;
+	margin-top:20px;
+	margin-bottom:20px;
+	overflow:auto;
+}
+#address input{
+	width:130px;
+	margin-top:5px;
+}
+.adr_block{
+	float:left;
+	width:160px;
+}
+.adr_block label{
+	font-size:14px;
+}
+#index{
+	float:left;
+	width:250px;
+	font-size:13px;
+	text-align:center;
+	margin-top:18px;
+	display:none;
+}
+#index a{
+	color:#309bb6;
+}
+#name{
+	margin-top:15px;
+	display:none;
+	overflow:hidden;
+	margin-bottom:15px;
+}
+#name input{
+	width:130px;
+	margin-top:5px;
+}
+sup{
+	color:red;
+	font-size:14px;
+	position:absolute;
+}

@@ -1,0 +1,160 @@
+@charset "UTF-8";
+html{padding:0;width:100%;min-width:960px;margin:0;}
+
+body{
+	background:white;
+	width:100%;
+	min-width:960px;
+	padding:0;
+	margin:0;
+}
+header{
+	width:100%;
+	height:45px;
+	margin:0 auto;
+	background:#309bb6;
+	padding:0;
+	min-width:960px;
+}
+#container{
+	min-width:960px;
+	min-height:550px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background:white;
+	margin-left:250px;
+	padding:50px 0 0 50px;
+}
+#content{
+	width:800px;
+	min-height:450px;
+	margin:0 0 0 50px;
+	border:1px silver solid;
+}
+img{
+	-moz-user-select: none;
+	-o-user-select:none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	 user-select: none;
+}
+#menu{
+	width:250px;
+	height:600px;
+	padding:0;
+	border-right: 1.5px solid #d3dde7;
+	background:#65bacf;
+	float:left;
+}
+#menu ul{
+	list-style-type:none;
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+	-moz-user-select: none;
+	-o-user-select:none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	 user-select: none;
+}
+#menu li:not(.active){
+	height:100%;
+	line-height:60px;
+	font-size:17px;
+	color:white;
+	text-decoration:underline;
+	cursor:pointer;
+}
+#menu li:hover{
+	color:#A52A2A;
+}
+.active{
+	color:#A52A2A;
+	height:100%;
+	line-height:60px;
+	font-size:17px;
+	text-decoration:underline;
+	cursor:pointer;
+}
+.error{
+	height:50px;
+	width:400px;
+	position:absolute;
+	top:100px;
+	left:50%;
+	margin-left:-200px;
+	border:1px black solid;
+	background:white;
+	text-align:center;
+	line-height:50px;
+	color:red;
+	border-radius:5px;
+}
+.title{
+	text-align:center;
+	font-size:20px;
+	color:#696969;
+	margin-bottom:50px;
+}
+input{
+	margin-right:20px;
+	margin-bottom:20px;
+}
+textarea{
+	 width:700px;
+	 max-width:700px;
+	 height:100px;
+	 max-height:100px;
+	 margin-bottom:20px;
+}
+form{
+	margin-left:50px;
+}
+span{
+	font-size:10px;
+}
+#questions{
+	display:none;
+	width:90%;
+	height:90%;
+	overflow:auto;
+	padding:5%;
+}
+.quest_block{
+	width:90%;
+	margin:0 auto;
+	border-bottom:1px silver solid;
+	margin-bottom:40px;
+	min-height:40px;
+	padding-bottom:10px;
+}
+.email{
+	float:left;
+	text-align:center;
+	width:280px;
+}
+.question{
+	margin-left:150px;
+	text-align:center;
+}
+.success{
+	height:50px;
+	width:400px;
+	position:absolute;
+	top:100px;
+	left:50%;
+	margin-left:-200px;
+	border:1px black solid;
+	background:white;
+	text-align:center;
+	line-height:50px;
+	color:#90EE90;
+	border-radius:5px;
+}
+#back{
+	float:right;
+	margin-right:200px;
+	line-height:45px;
+	color:white;
+}

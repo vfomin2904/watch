@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+#content{
+	position:relative;
+	min-height:600px;
+}
+#title{
+	font-size:30px;
+	color:orange;
+	margin-left:40px;
+}
+#send_rev{
+	position:absolute;
+	top:20px;
+	right:50px;
+	height:30px;
+	font-size:15px;
+	color:#474747;
+}
+.review{
+	color:#474747;
+	width:600px;
+	margin:0 0 20px 60px;	
+	border-bottom:1px #E6E6FA solid;
+}
+.name{
+	font-size:18px;
+	margin-top:0;
+	float:left;
+	
+}
+#rev_panel{
+	display:none;
+	position:absolute;
+	left:50%;
+	top:50px;
+	width:400px;
+	height:370px;
+	margin-left:-250px;
+	background:white;
+	z-index:100;
+	border-radius:30px;
+	padding:50px;
+}
+#rev_panel img{
+	position:absolute;
+	top:15px;
+	right:15px;
+	width:25px;
+	cursor:pointer;
+}
+#sendrev_box{
+	width:400px;
+	height:400px;
+}
+#rev_panel textarea{
+	max-height:150px;
+	max-width:400px;
+}
+#rev_form{
+	display:none;
+	margin:0 0 20px 40px;
+	width:600px;
+}
+#rev_title{
+	margin-bottom:10px;
+}
+#write_rev{
+	margin-bottom:10px;	
+	width:600px;
+	height:100px;
+	max-width:600px;
+	max-height:150px;
+}
+#rev_form input[type="submit"]{
+	float:right;
+}
+#hide{
+	float:right;
+	font-size:13px;
+	line-height:25px;
+	margin-right:30px;
+	color:#4682B4;
+	text-decoration:underline;
+	cursor:pointer;
+}
+#count_page{
+	width:300px;
+	margin: 0 auto;
+	height:60px;
+	padding:0;
+}
+#count_page ul{
+	list-style-type:none;
+	padding:0;
+	height:100%;
+	text-align:center;
+}
+#count_page li{
+	display:inline-block;
+	height:100%;
+	margin-right:5px;
+	line-height:60px;
+}
+#count_page a{
+	font-size:17px;
+	color:#4682B4;
+}
+.remove{
+	color:#DC143C;
+	text-decoration:underline;
+	font-size:13px;
+	cursor:pointer;
+	float:left;
+	margin-left:20px;
+	margin-top:3px;
+}
+.change{
+	color:#4682B4;
+	float:left;
+	text-decoration:underline;
+	font-size:13px;
+	cursor:pointer;
+	margin-left:10px;
+	margin-top:3px;
+}
+.review textarea{
+	clear:both;
+	height:100px;
+	max-height:100px;
+	width:100%;
+	max-width:100%;
+}
+.send_change{
+	font-size:15px;
+	cursor:pointer;
+	margin-left:10px;
+	float:right;
+	margin-top:10px;
+}
